@@ -1,0 +1,176 @@
+body,
+.grid-wrapper {
+  height: 100%;
+}
+.header {
+  display: flex;
+  height: 200px;
+  position: fixed;
+  background-color: RGB(0, 55, 79);
+  align-items: flex-start;
+  padding-top: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  width: 100%;
+  overflow: hidden;
+  /* box-shadow: 0px 0px 20px 0px grey;*/
+}
+.footer {
+  display: flex;
+  height: 20px;
+  background-color: RGB(32, 74, 102);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+  font-weight: 300;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+  overflow-y: scroll;
+  position: relative;
+  width: 1200px;
+  top: 110px;
+  bottom: 20px;
+}
+.card-wrapper {
+  justify-content: center;
+  align-content: center;
+  margin: 10px 10px 5 10px;
+}
+.card {
+  width: 16rem;
+  margin: auto;
+}
+
+.card-header {
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  box-shadow: 1px 2px 1px 0px lightblue;
+}
+
+.list-group-item {
+  height: 30px;
+  padding: 0px;
+  padding-left: 4px;
+  padding-top: 4px;
+
+  font-size: 12px;
+  text-align: left;
+  justify-content: center;
+}
+.btn {
+  padding: 0px;
+  font-size: 12px;
+  text-align: center;
+  border: RGB(32, 74, 102) 1px solid;
+  padding-left: 2px;
+  padding-right: 2px;
+  width: 150px;
+  font-weight: 600;
+  background-color: RGB(13, 50, 84, 80%);
+}
+.button-disp {
+  display: flex;
+  padding: 0px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.btn:hover {
+  background-color: RGB(13, 50, 84);
+}
+a:hover {
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.input_hi {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+}
+#itemInput {
+  border: 3px solid #555;
+  padding: 0px;
+  margin: 0px;
+}
+input[type="text"]:focus,
+input[type="text"]:hover {
+  background-color: RGB(223, 224, 235);
+}
+.custom-shape-divider-bottom-1671982890 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1671982890 svg {
+  position: relative;
+  display: block;
+  width: calc(170% + 1.3px);
+  height: 122px;
+}
+
+.custom-shape-divider-bottom-1671982890 .shape-fill {
+  fill: #ffffff;
+}
+/*Config colors*/
+.blue {
+  background-color: RGB(36, 128, 189);
+  color: white;
+}
+.red {
+  background-color: RGB(133, 25, 32);
+  color: white;
+}
+.dark-blue {
+  background-color: RGB(32, 74, 102);
+  color: white;
+}
+.green {
+  background-color: RGB(18, 94, 68);
+  color: white;
+}
+.amber {
+  background-color: RGB(94, 84, 18);
+  color: white;
+}
+.green-blue {
+  background-color: RGB(42, 69, 71);
+  color: white;
+}
+.purple {
+  background-color: RGB(43, 32, 61);
+  color: white;
+}
+.brown {
+  background-color: RGB(71, 32, 41);
+  color: white;
+}
+.greenblue2 {
+  background-color: RGB(0, 55, 79);
+  color: white;
+}
+.darkgreenblue {
+  background-color: RGB(11, 44, 59);
+  color: white;
+}
